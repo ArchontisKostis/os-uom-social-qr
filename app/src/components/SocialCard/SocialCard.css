@@ -1,0 +1,18 @@
+.social-card {
+    display: grid;
+    grid-template-rows: 0.1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 1em;
+    padding: 1em;
+}
+
+.social-card h2 {
+    color: white;
+}
+
+.social-card img {
+    width: 30vh;
+    height: 30vh;
+    object-fit: contain;
+}
